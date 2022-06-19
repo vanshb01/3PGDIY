@@ -101,16 +101,16 @@ Check if a day is weekend day or a working day. Your script will take day as an 
             break;
         case marks > 70:
             console.log("B");
-            marks;
-        case score > 60:
+            break;
+        case marks > 60:
             console.log("C");
-            marks;
-        case score > 50:
+            break;
+        case marks > 50:
             console.log("D");
-            marks;
-        case (score < 50):
+            break;
+        case (marks < 50):
             console.log("F");
-            marks;
+            break;
         default:
             console.log("no marks assigned")
     }
